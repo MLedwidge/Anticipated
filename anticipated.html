@@ -17,23 +17,25 @@ margin-bottom: 450px;
   h2 {
     text-align: center; color: black; font-family: "Franklin Gothic Std Book", sans-serif;
 
-  margin-top: 400px;
-    margin-bottom: 200px;
+   /* margin-top: 400px; */
+    /*margin-bottom: 200px; */
     margin-right: 0px;
     margin-left: 0px;
-    font-size: 24pt;
+    font-size: 32pt;
+
 }
 
   p {
     text-align: center;
-    margin: 75px;
+    //*  margin: 75px; *//
     line-height: 1.7;
-    font-size: 18pt;
+    font-size: 16pt;
     font-family: "ProphetTrial";
-    margin: 200px;
+    /* margin: 200px; */
     margin-right: 300px;
     margin-left: 300px;
     margin-bottom: 1000px;
+
   }
 
   body {background-color: #ebeced;}
@@ -44,42 +46,45 @@ tr {
   text-align: left;
   margin: 75px;
   line-height: 1.7;
-  font-size: 16pt;
+  font-size: 15pt;
   margin: 200px;
 
 }
 
 
 td:hover {
+  background-color: black; transition: 0s;
+  transition-timing-function: ease-in;
 
-  background-color: black; transition: 0.4s;
 }
+
+td.not:hover{background-color: #ebeced }
+
 
 td {
 vertical-align:top;
+transition-timing-function: ;
+transition: 20s;
 transition-timing-function: ease-out;
-transition: 0.5s;
+transition-delay: 5s;
 
 }
 
-
-
-  img {
-width: 150px;
-  }
 
   a:link {
     text-decoration: none;
   }
 
 
-  table, th, td {
+th,
+
+  table, td {
     border: 2px solid black;
     border-collapse: collapse;
     padding: 25px;
-    table-layout:fixed; 100%:
+    table-layout:fixed; 100%;
     vertical-align:top;
-    transition-timing-function: ease-in-out;
+    transition-timing-function: ease-out;
    }
 
    .answer {
@@ -89,84 +94,55 @@ width: 150px;
 
 
 
+
+        /* unvisited link */
+        a:link {
+          color: black;
+          text-decoration: none;
+          font-style: oblique;
+        }
+
+        /* visited link */
+        a:visited {
+          color: black;
+          text-decoration: none;
+          font-style: italic;
+        }
+
+        /* mouse over link */
+        a:hover {
+          color: black;
+          font-style: normal;
+
+        }
+
+        /* selected link */
+        a:active {
+          color: black;
+          text-decoration: none;
+          font-style: italic;
+        }
+
+        H3 {
+        margin-left: 30PX;
+
+
+        }
+
+
   </style>
 
 </head>
 
 <body >
 
+<h3> <a href="https://www.anticipated.care/about">ABOUT </a></h3>
 
-  <h1>An <br> Interface <br>  of<br>  Anticipated <br>  Care</h1></a>
-
-
-
-
-
-
-
-<p>
-
-This page is intended to act as a toolkit-generator for producing structures of aesthetic encounter. It draws from visions of future predictions and historical reconstructions shaping contemporary urban spaces. Organized around a set of prompts and questions, it is intended as a script for the contemplation and production of a new vocabulary to engage with the timeliness of urban conditions.
-</p>
-<p>
-
-  The project proceeds from four starting points.
-
-</p>
-
-
-<h2> 1.	 Modes of Proposal </h2>
-
-<p>
-
-The project proceeds from an understanding of the proposal as an important tool for the expansion of civic imagination to be adopted in conjunction with other forms of action. Language can be a starting point for generating forms beyond what is readily apparent – an urgent appropriate tool for a moment of collective incapacity, distinct to present conditions of emergency, dislocation, and evacuation. This is understood in dialogue with allied projects creating tools for expanding the roles of artistic and architectural education in public life, and efforts to democratize its access. In this sense it could be a syllabus, scaffold, lesson plan, assignment, or script for collaborative structure – a non-coercive rearrangement of desires.
-
-</p>
-
-
-<h2> 2.	Prediction and Reconstruction </h2>
-
-<p>
-Another starting point is a focused attention on examples of visualization of the future and of past historical moments. Think of architectural renderings, interpretive archaeological sites, capital campaigns, and logarithmic pandemic charts. Understand these images as interfaces which impact an experience of the urban environment in the present.
-</p>
-
-
-<h2> 3.	A City Which Feels You </h2>
-
-<p>
-
-
-  A Media Lab City Science 2017 article begins with the question: “Can you imagine a city that feels, understands, and cares about your wellbeing?” It outlined a framework for future urban development comprised of layers of embedded technologies for caring, understanding, and feeling.
-
-  It describes a city that is at once smart, sensitive and caring, and one which uses soft social engineering to manipulate its population. Models of perceptual and emotional feedback would be utilized to automate civic participation at the expense of all other ways of organizing. Concern yourself with this slippage, an uncanny transference of the psychological to the architectural. Think also of other ways that the city might care, the interlinked networks of maintenance and violence, the political economies of attention, the experience required to register how it would manifest.
-
-
-
-</p>
-
-<h2> 4.	A History of Emotions </h2>
-
-<p>
-
-  The history of emotions is an emerging academic field
-  which traces and analyses
-  the changing norms and rules of feeling.
-
-  It looks at the development and organization
-  of emotional regimes, codes, and lexicons.
-
-  This project seeks to affirm the contingent nature of emotion and its discrete manifestations.
-  You might look, too, to the changing epistemic status of psychological pathologies, and to think towards the unregistered, the untimely, and the not yet realized kinds of feeling.
-
-
-</p>
-
-
-<h2> Script </h2>
+<h2> AN INTERFACE OF ANTICIPATED CARE </h2>
 
 <table style="width:100%">
   <tr>
-    <th> </th>
+    <th> </a></th>
 
     <th>Image</th>
 
@@ -177,7 +153,7 @@ Another starting point is a focused attention on examples of visualization of th
   </tr>
 
   <tr>
-                    <td>Maintenance</td>
+                    <td class="not"> Maintenance</td>
                     <td>What was an image of maintenance?
                         <span class="answer"> <br>The place in which you are already standing. </span>
                         </td>
@@ -202,7 +178,7 @@ They joined together into groups but failed to recognize what made it possible i
 
 
   <tr>
-          <td>Planning</td>
+          <td class="not">Planning</td>
           <td>What was an image of planning?<span class="answer"> <br>
 The upper part tapered inward and was covered in crisscrossed lines like it was preparing for a disaster.</span>
 </td>
@@ -217,7 +193,7 @@ It was predicted that by the middle of the century it would become a thriving hu
   </tr>
 
   <tr>
-          <td>Belief</td>
+          <td class="not">Belief</td>
           <td>What was an image of belief? <span class="answer"><br>
 A tour group was led through the museum, like double agents their true intentions were different from what the plaques had indicated.</span>
 </td>
@@ -232,7 +208,7 @@ We talked about how images started to feel dangerous, not knowing what could be 
 
 
   <tr>
-          <td>Desire</td>
+          <td class="not">Desire</td>
           <td>What was an image of desire?<span class="answer"> <br>
 When one bumped into another they told each other about the catastrophe. Most would quickly evacuate.</span>
 </td>
@@ -250,7 +226,7 @@ At first it consisted of following certain paths.</span>
 
 
   <tr>
-          <td>Intention</td>
+          <td class="not">Intention</td>
           <td>What was an image of intention?<span class="answer"> <br>
 It referred to simple obvious facts.</span>
 </td>
@@ -268,7 +244,7 @@ A new academic department was created, and staffed in part due to a generous gra
 
 
   <tr>
-          <td>Physical Activity</td>
+          <td class="not" >Physical Activity</td>
           <td>What was an image of physical activity?<span class="answer"> <br>
 Supportive technologies
 </td>
@@ -286,7 +262,7 @@ A heuristic feature selection method.
 
 
   <tr>
-          <td>Contingency</td>
+          <td class="not">Contingency</td>
           <td>What was an image of contingency?<span class="answer"> <br>
 Rearrangement of desires, especially a new understanding of the role of violence in public life.
 </td>
@@ -304,7 +280,7 @@ It does not appear in the records.
 
 
   <tr>
-          <td>Care</td>
+          <td class="not">Care</td>
           <td>What was an image of care?<span class="answer"> <br>
 It would start with recognizing what was wrong.
 </td>
@@ -322,7 +298,7 @@ A letter written long after the fact.
 
 
   <tr>
-          <td>Feeling</td>
+          <td class="not" >Feeling</td>
           <td>What was an image of feeling?<span class="answer"> <br>
 It was this plaque on the guardrail. It talked about what they think it felt like thousands of years ago, but there wasn’t any pictures.
 </td>
@@ -340,7 +316,7 @@ And if you stayed in the lobby until eight you would see they move all the chair
 
 
         <tr>
-          <td>Evidence</td>
+          <td class="not" >Evidence</td>
           <td>What was an image of evidence?<span class="answer"> <br>
 It was never recovered.
           </td>
@@ -356,7 +332,7 @@ Afterwards we took of our costumes and had lunch outside.
         </tr>
 
         <tr>
-          <td>Sensibility</td>
+          <td class="not" >Sensibility</td>
           <td>What is an image of sensibility?<span class="answer"> <br>
 I overheard him talking about new innovative features.
 </td>
@@ -372,7 +348,7 @@ The development of a new methodology was required, involving extensive participa
         </tr>
 
         <tr>
-          <td>Support</td>
+          <td class="not">Support</td>
           <td>What was an image of support?<span class="answer"> <br>
 They did not have a graphical interface, but it was codified into various diagrams.
 
@@ -390,7 +366,7 @@ A special certificate program accredited by the state helped the ideas spread gl
         </tr>
 
         <tr>
-          <td>Violence</td>
+          <td class="not">Violence</td>
           <td>What was an image of violence?<span class="answer"> <br>It receded into the walls quietly impacting the efficiency of the other inhabitants of the space.
 </td>
           <td>What was not an image of violence?<span class="answer"> <br>
@@ -404,7 +380,7 @@ In this instance, they were told that they thought it would provide new opportun
         </tr>
 
         <tr>
-          <td>Policy</td>
+          <td class="not">Policy</td>
           <td>What was an image of policy?<span class="answer"> <br>
 In graph form each contradicted the other.
 </td>
@@ -421,7 +397,7 @@ Thinking carefully about the needs of the community.
 
 
         <tr>
-          <td>Methodology</td>
+          <td class="not">Methodology</td>
           <td>What was an image of methodology?<span class="answer"> <br>
 Large banners, printed on fabric stretched across the plaza.
 </td>
@@ -438,7 +414,7 @@ Basic codes and conversations began to work and suggested new possibilities for 
 
 
         <tr>
-          <td>Suggestion</td>
+          <td class="not">Suggestion</td>
           <td>What was an image of suggestion?<span class="answer"> <br>
 They asked to imagine a bank lobby at night, and a journey into a subterranean control room.
 
@@ -455,7 +431,7 @@ It was communicated over the phone, but it didn’t translate.
         </tr>
 
                 <tr>
-                  <td>Agency</td>
+                  <td class="not">Agency</td>
                   <td>What was an image of agency?<span class="answer"> <br>
 They met every night to coordinate their covert activities.
 </td>
@@ -472,7 +448,7 @@ Underground tunnels to shelter from the elements during the winter.
 
 
                         <tr>
-                          <td>Forgetting</td>
+                          <td class="not">Forgetting</td>
                           <td>What was an image of forgetting?<span class="answer"> <br>
 There was constant gaps in the process, and they could be seen like fingerprints on the public signage.
 </td>
